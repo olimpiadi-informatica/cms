@@ -144,6 +144,7 @@ class AWSConfig:
 @dataclass()
 class ProxyServiceConfig:
     rankings: tuple[str, ...] = ()
+    contest_id: tuple[int, ...] = ()
     https_certfile: str | None = None
 
 
